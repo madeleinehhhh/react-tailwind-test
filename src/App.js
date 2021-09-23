@@ -1,8 +1,14 @@
-// import './index.css';
+import React from 'react'
+import Header from './components/header.js'
+import Nav from './components/nav.js'
 
 const App = () => {
   return (
-    <p class="text-green-600 text-5xl">This is a test paragraph.</p>
+    <div class="m-auto max-w-2xl p-4" >
+      <Header />
+      <Nav />
+    </div>
+
   );
 }
 
