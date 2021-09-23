@@ -1,8 +1,8 @@
-import './App.css';
+// import './index.css';
 
-function App() {
+const App = () => {
   return (
-    <p class="text-cyan-600">This is a test paragraph.</p>
+    <p class="text-green-600 text-5xl">This is a test paragraph.</p>
   );
 }
 
