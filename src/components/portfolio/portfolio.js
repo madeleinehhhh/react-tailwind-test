@@ -1,9 +1,11 @@
 import React from 'react'
 
-const PortfolioCategory = () => (
-  <section class="p-10">
+const PortfolioCategory = () => {
+  return (
+    <section class="p-10">
 
-  </section>
-)
+    </section>
+  )
+}
 
 export default PortfolioCategory
